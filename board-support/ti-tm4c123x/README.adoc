@@ -1,6 +1,6 @@
 = TM4C123X
 
-[PRERELEASE] HALs and register definitions for TM4C123X (TEVA) devices
+[PRERELEASE] HALs and register definitions for TM4C123X (TIVA C Series) devices
 
 == What version of Zig to use
 

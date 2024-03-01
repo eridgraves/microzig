@@ -98,14 +98,14 @@ pub const chips = struct {
 };
 
 pub const boards = struct {
-    pub const tm4c123xdiscovery = MicroZig.Target{
+    pub const tm4c123xeval = MicroZig.Target{
         .preferred_format = .elf,
         .chip = chips.tm4c123x.chip,
         .board = .{
-            .name = "TM4C123XDISCOVERY",
-            .source_file = .{ .path = build_root ++ "/src/boards/TM4C123XDISCOVERY.zig" }, // TODO file
+            .name = "TM4C123XEVAL",
+            .source_file = .{ .path = build_root ++ "/src/boards/TM4C123XEVAL.zig" }, // TODO file
         },
     };
 
-    // TODO TM4C129X: add discovery
+    // TODO TM4C129X: add eval
 };
